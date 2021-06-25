@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SearchContext.Provider value={{search, setSearch, data1}}>
-      <SearchForm greetings={'Books Uploaded By You,'}/>
+      <SearchForm greetings={'Your Uploads, '}/>
       {data1 ? <TemplateUserPage data1={data1} /> : <h1 style={{margin:'auto', textAlign:'center'}}>Nothing Found =(</h1>}
       </SearchContext.Provider>
 
