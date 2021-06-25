@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## HOW IT WORKS 📹 
-![Alt text](/tutorial.gif) / ![](/tutorial.gif)
+![Alt text][https://youtu.be/vlcKYxOM0_s]
 
 
 

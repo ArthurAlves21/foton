@@ -28,7 +28,7 @@ if(!data){
           <meta property="og:type" content="website"></meta>
         </Head>
     <BookContext.Provider value={{title, subtitle, description, thumbnail, author}}>
-    <TemplateBookPage title={title} subtitle={subtitle} description={description} thumbnail={thumbnail} author={author}/>
+    <TemplateBookPage />
     </BookContext.Provider>
     </>
   )
@@ -76,7 +76,7 @@ if(!data){
           <meta property="og:type" content="website"></meta>
         </Head>
         <BookContext.Provider value={{title, subtitle, description, thumbnail, author}}>
-        <TemplateBookPage title={title} subtitle={subtitle} description={description} thumbnail={thumbnail} author={author} />
+        <TemplateBookPage  />
         </BookContext.Provider>
         </>
       )

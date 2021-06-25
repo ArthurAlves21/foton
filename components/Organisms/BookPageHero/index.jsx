@@ -12,7 +12,7 @@ function BookPageHero() {
     <>
     <Container>
       <Background>
-       <Link href="/"><button style={{float: 'left', marginTop:"50px", marginLeft:"30px", border: "0px", fontWeight:"600", fontSize:"20px", cursor: "pointer"}}>←</button></Link>
+       <Link href="/"><button style={{float: 'left', marginTop:"50px", marginLeft:"30px", border: "0px", fontWeight:"600", fontSize:"20px", cursor: "pointer", backgroundColor:"transparent"}}>←</button></Link>
         <img className="ball" src="/images/Oval.png"/>
         <OvalDarkBlue />
         <OvalDashed />
